@@ -18,7 +18,7 @@ DEST_FOLDER="formfeeder-pull"
 if [ -d "$DEST_FOLDER" ]; then
   echo "Cleaning contents of $DEST_FOLDER"
 
-  rm -rf "$DEST_FOLDER"/*
+  rm -rf "$DEST_FOLDER"
 
   echo "Contents of $DEST_FOLDER have been cleaned."
 else
